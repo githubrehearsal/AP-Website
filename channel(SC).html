@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>FAQ Page 2 | | Unify - Responsive Website Template</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="assets/css/unify-core.css">
+    <link rel="stylesheet" href="assets/css/unify-components.css">
+    <link rel="stylesheet" href="assets/css/unify-globals.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <section>
+        <div id="purchase">
+            <div>
+                <div>
+                    <div>
+                        <h2 class="question-title">通路经销</h2>
+                    </div>
+                    <div id="accordion">
+                        <div>
+                            <div>
+                                <h5>
+                                    <p>出版销售通路</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>透过博客来、灰熊爱读书、三民、五南等网络及实体书店于台湾销售，同时与大陆广州中图及教图合作，铺货至内地各机关与图书馆。此外，更经由Ingram集团，于Amazon、Barnes
+                                    & Noble、Blackwell、WHSmith、Borders marketplace等平台销售推广，将您的著作营销至全世界。</div>
+                                <br /><br />
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h5>
+                                    <p>紙本期刊／紙本書</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>请至<a style="text-decoration: underline;" href="https://www.iread.com.tw" target="_blank">iRead灰熊爱读书</a>、<a
+                                        style="text-decoration: underline;" href="http://www.books.com.tw" target="_blank">博客来</a>等网络销售平台，或全台三民书局、五南书局等实体书店购书；如有大量购买之需求，可与华艺学术出版发行专员联系。</div>
+                                <br /><br />
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h5>
+                                    <p>电子期刊／电子书</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>与华艺共同合作出版之出版品将收录于华艺数据库，期刊文章、论文请参见<a style="text-decoration: underline;" href="http://www.airitilibrary.com"
+                                        target="_blank">华艺线上图书馆</a>，专书收录于<a style="text-decoration: underline;" href="http://www.airitibooks.com"
+                                        target="_blank">iRead eBook华艺电子书</a>；电子期刊／电子书用户可于各平台注冊会员账号下载购买。</div>
+                                <br /><br />
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h5>
+                                    <p>提供报表分析与版权收入回馈金</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>根据共同出版品的销售情形，华艺每半年提供相关报表，依此结算纸本销售版税与电子版之下载权利金，回馈给共同出版的作者与单位。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Accordion -->
+    <!-- JS Global Compulsory -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+
+    <!-- JS Implementing Plugins -->
+    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+    <!-- JS Unify -->
+    <script src="assets/js/hs.core.js"></script>
+    <script src="assets/js/components/hs.header.js"></script>
+    <script src="assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="assets/js/components/hs.tabs.js"></script>
+    <script src="assets/js/components/hs.go-to.js"></script>
+
+    <!-- JS Customization -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+        $(document).on('ready', function () {
+            // initialization of tabs
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+
+        $(window).on('load', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#js-header'));
+            $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 991
+            });
+        });
+
+        $(window).on('resize', function () {
+            setTimeout(function () {
+                $.HSCore.components.HSTabs.init('[role="tablist"]');
+            }, 200);
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

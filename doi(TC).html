@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>FAQ Page 2 | | Unify - Responsive Website Template</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="assets/css/unify-core.css">
+    <link rel="stylesheet" href="assets/css/unify-components.css">
+    <link rel="stylesheet" href="assets/css/unify-globals.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <p></p>
+    <section>
+        <div id="installation">
+            <div>
+                <div>
+                    <div>
+                        <h2 class="question-title">代理註冊DOI</h2>
+                    </div>
+                    <div id="accordion-1">
+                        <div>
+                            <div id="accordion-1-heading-01" class="accordion-area">
+                                <h5>
+                                    <p>DOI註冊說明</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>華藝DOI註冊中心是臺灣唯一獲得國際DOI基金會（IDF）官方授權之註冊中心，在全球10個註冊中心中，獨家代理正體中文的DOI註冊。 <br />華藝DOI註冊中心的註冊類別如下：
+                                    <div class="row doi-all">
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-note2 doi-all-inside-icon"></i>
+                                            <p>期刊</p>
+                                        </div>
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-study doi-all-inside-icon"></i>
+                                            <p>學位論文</p>
+                                        </div>
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-notebook doi-all-inside-icon"></i>
+                                            <p>書籍</p>
+                                        </div>
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-chat doi-all-inside-icon"></i>
+                                            <p>研討會</p>
+                                        </div>
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-display2 doi-all-inside-icon"></i>
+                                            <p>會議論文</p>
+                                        </div>
+                                        <div class="col-xs-6 col-md-2 doi-all-inside"><i class="pe-7s-news-paper doi-all-inside-icon"></i>
+                                            <p>研究計畫報告</p>
+                                        </div>
+                                    </div><br />
+                                    1.編務流程系統化，線上完成投稿、審稿作業，掌控出版期程；<br />
+                                    2.華藝提供多項免費之DOI擴充服務，包括DOI解析器、DOI物件資料查詢、DOI比對器、QR Code產生器、DOI驗證器等，<a style="text-decoration: underline;" href="http://doi.airiti.com/DOIService/DOIService"
+                                        target="_blank">詳見官網</a> ；<br />
+                                    3.串聯DOI，確認引文正確性，提升文章能見度；<br />
+                                    4.串聯ORCiD，明確識別學者，並連結個人學術貢獻與成就。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JS Global Compulsory -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <!-- JS Unify -->
+    <script src="assets/js/hs.core.js"></script>
+    <script src="assets/js/components/hs.header.js"></script>
+    <script src="assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="assets/js/components/hs.tabs.js"></script>
+    <script src="assets/js/components/hs.go-to.js"></script>
+    <!-- JS Customization -->
+    <script src="assets/js/custom.js"></script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(document).on('ready', function () {
+            // initialization of tabs
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+        $(window).on('load', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#js-header'));
+            $.HSCore.helpers.HSHamburgers.init('.hamburger');
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 991
+            });
+        });
+        $(window).on('resize', function () {
+            setTimeout(function () {
+                $.HSCore.components.HSTabs.init('[role="tablist"]');
+            }, 200);
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

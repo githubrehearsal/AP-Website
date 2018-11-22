@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>FAQ Page 2 | | Unify - Responsive Website Template</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="assets/css/unify-core.css">
+    <link rel="stylesheet" href="assets/css/unify-components.css">
+    <link rel="stylesheet" href="assets/css/unify-globals.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <section>
+        <div id="installation">
+            <div>
+                <div>
+                    <div>
+                        <h2 class="question-title">数字化服务</h2>
+                    </div>
+                    <div id="accordion-1">
+                        <div>
+                            <div id="accordion-1-heading-01" class="accordion-area">
+                                <h5>
+                                    <p>iPress华艺学术投稿平台</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <ul class="service-list">
+                                    <li>由华艺专业团队自行开发，提供系统升级、扩充、教育训练与专门客服／技术人员。</li>
+                                    <li>缩短稿件处理时间，提高审稿之效率与客观性。</li>
+                                    <li>编务流程系统化，在线完成投稿、审稿作业，掌握审稿作业期程。</li>
+                                    <li>支持后端编务所需档案与信息的导出。</li>
+                                    <li>提供DOI比对器，确认引用文献的正确性，提升文章能见度。</li>
+                                    <li>串联ORCID，明确识别学者，并连结个人学术贡献与成就。</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="accordion-1-heading-02" class="accordion-area">
+                                <h5>
+                                    <p>PlagChecker文献相似检测服务</p>
+                                </h5>
+                            </div>
+                            <div>
+                                <div>
+                                    <ul class="service-list">
+                                        <li>提供文件原创性比对服务：系统自动比对上传档案，并显示文章与他人著作相似的比例。</li>
+                                        <li>比对内容：涵盖逾2,000种华文学术期刊与会议论文，以及约50所大专院校学位论文，包含台湾大学学位论文、《马偕护理杂志》、《台湾地理信息学刊》……等独家授权给华艺线上图书馆的期刊、会议论文及学位论文。</li>
+                                        <li>简繁比对：繁体中文或是简体中文之文档皆可进行比对。</li>
+                                        <li>独家引文疏漏检测：提示您可能缺少的文内注与参考书目，避免后续未正确引用而产生争议。</li>
+                                        <li>两种下载报告模式：可依需求下载全文检测报告或下载相似段落检测报告。</li>
+                                        <li>直接取得相似文献：链接华艺线上图书馆，取得并检视与文档相似的文献。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JS Global Compulsory -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <!-- JS Unify -->
+    <script src="assets/js/hs.core.js"></script>
+    <script src="assets/js/components/hs.header.js"></script>
+    <script src="assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="assets/js/components/hs.tabs.js"></script>
+    <script src="assets/js/components/hs.go-to.js"></script>
+    <!-- JS Customization -->
+    <script src="assets/js/custom.js"></script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(document).on('ready', function () {
+            // initialization of tabs
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+        $(window).on('load', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#js-header'));
+            $.HSCore.helpers.HSHamburgers.init('.hamburger');
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 991
+            });
+        });
+        $(window).on('resize', function () {
+            setTimeout(function () {
+                $.HSCore.components.HSTabs.init('[role="tablist"]');
+            }, 200);
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+.big-item .products-grid .product-item-info.metro_template .product-top a.photo { 
+    padding-top: calc(133.3333% - 10px) !important; 
+}
+.products-grid .big-item .product-item-info.metro_template .product-top a.photo { 
+    padding-bottom: calc(133.3333% - 10px) !important; 
+}
+.header.header9 .vertical-menu-widget .vertical-menu {
+    padding-bottom: 31px;
+}
+@media (min-width: 1200px){
+    .cms-index-index .header.header8 .vertical-menu-widget .vertical-menu{
+        padding-bottom: 60px;
+        }
+    }
+body:not(.panel-popup):not(.fullwidth).mgs-quickview-catalog-product-view.boxed .page-wrapper {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+.mgs-quickview-catalog-product-view .product-detail-infomation.col-xs-12 {
+    height: auto !important;
+}
+.slide-text .big-text,.slide-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+h4 {
+    color: #333333;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.footer-container {
+    background-color:#2d3649;
+}
+.middle-footer {
+    background-color:#2d2d2d;
+}
+.margin-top25{
+    display:none;
+}
+.question-title{
+    font-weight:400;font-size:32px;margin:50px auto;
+}
+.collapsed{
+    font-size:18px;color:rgb(100, 100, 100);
+}
+.accordion-area{
+    margin:20px auto;
+}
+.doi-all{
+    align-items:center;
+}
+.doi-all-inside{
+    text-align:center;
+}
+.doi-all-inside-icon{
+    margin:15px auto;font-size:50px;display:block;
+}
+/*------------------------共通樣式------------------------*/
+.gray-title{
+    color:#878787;
+}
+
+/*------------------------header------------------------*/
+/*最頂部歡迎區塊*/
+.top-header-content{/*display:none;*/}
+/*語系切換國旗圖*/
+.switcher-language img{
+    display:none;
+}
+/*最頂部內容文案左*/
+.top-header-content .container .row >div:nth-child(1),.top-header-content .container .row >div:nth-child(2){
+    visibility:hidden;
+}
+
+/*header破版*/
+.preloader{
+    display:none;
+}
+
+/*購物袋功能*/
+.header .table-icon-menu .minicart-wrapper{
+    display:none;
+}
+
+/*搜尋功能*/
+.header .search-form .form-search .form.minisearch .input-text{
+    width:60%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto
+}
+
+/*前台燈入功能(需要編輯時開啟)*/
+.header .table-icon-menu >  div.dropdown-toplinks{
+    /*display:none;*/
+}
+
+/*------------------------麵包屑選單------------------------*/
+.breadcrumbs > .container, .breadcrumbs > .container-fluid
+{
+    width:1200px;
+    margin:0 auto;
+}
+
+/*----------------數位化服務頁面----------------*/
+/*服務項目列表*/
+.service-list{
+    margin-left:20px;
+    list-style:disc;
+}
+
+/*----------------圖書、期刊列表頁----------------*/
+/*次選單功能*/
+.catalog-category-view.page-layout-1column .category-product-actions .filter-toggle{
+    display:none;
+}
+/*商品缺貨功能*/
+.product-label{
+    display:none;
+}
+/*商品預覽功能*/
+.products-grid .product-item-info .product-top .actions-link{
+    display:none;
+}
+/*價格*/
+.price-box{
+
+}
+/*----------------圖書、期刊商品頁----------------*/
+/*沒有的字樣*/
+strong.type{
+    display:none;
+}
+/*商品頁價格*/
+.product-info-price{
+
+}
+/*出版資訊表格*/
+.product.info.detailed .item.content .table.additional-attributes tr td, .product.info.detailed .item.content .table.additional-attributes tr th{
+    border:none;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+/*------------------------共同出版------------------------*/
+/*標題*/
+.publish-title{
+    width:100%;
+    text-align: center;
+}
+/*個區塊*/
+.publish-area{
+    width:80%;
+    padding:50px 0px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+/*個區塊(偶數項目)*/
+.publish-area:nth-child(odd){
+    flex-direction: row-reverse;
+    background-color:#f5f5f5;
+}
+
+
+/*個區塊圖示*/
+.publish-area-icon{
+    width:50%;
+    border-radius: 200px;
+    text-align: center;
+}
+
+.publish-area-icon > i{
+    font-size: 75px;
+    margin-top:30px;
+    color: lightblue;
+}
+
+.publish-area-icon > p{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: lightblue;
+}
+/*說明內文*/
+.publish-area-text{
+    width:40%;
+    text-align: left;
+    margin:0 auto;
+}
+.publish-area-text > span{
+    padding:15px 0;
+    font-size: 24px; 
+    font-weight: bold;
+    display: block;
+}
+
+/*------------------------電子報------------------------*/
+/*期刊類*/
+.edm-area{
+    margin-top:50px;
+}
+
+.edm-area-list{
+    padding-top:10px;
+    padding-left:0;
+    list-style: none;
+}
+
+.edm-list-icon{
+    width:50px;
+    font-size: 36px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.edm-area-list-item{
+    padding:10px 0;
+    border-bottom:1px solid rgb(245, 245, 245);
+}
+/*專書類*/
+.edm-book{
+    margin-top:50px;
+}
+
+.edm-book h5{
+    color:#8e8e8e
+}
+
+.edm-book ul{
+    list-style: none;
+    padding-left:0;
+}
+
+.edm-book-list{
+    margin:5px 0;
+    padding:10px 0;
+    border-bottom:1px solid rgb(245, 245, 245);
+}
+
+/*------------------------footer------------------------*/
+.footer .middle-footer{
+    background-color:#f5f5f5
+}
+.middle-footer h6{color:#878787;}
+.footer .block.newsletter .form.subscribe .actions .action.subscribe{
+    background-color:#878787;
+    border-color:#878787
+}
+.footer .bottom-footer > div > div > div:nth-child(2){
+    display:none;
+}
+.copyright{
+    width:100% !important;
+    text-align:center;
+}
+
+
+/*------------------------RWD------------------------*/
+@media only screen and (max-width:1200px){
+    .breadcrumbs > .container, .breadcrumbs > .container-fluid
+    {
+        width:1200px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .breadcrumbs > .container, .breadcrumbs > .container-fluid
+    {
+        width:750px;
+    }
+}
+@media only screen and (max-width: 959px){
+    .publish-area{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .publish-area{
+        width:80%;
+        flex-wrap: wrap;
+        margin:20px auto;
+        padding-bottom:0px
+    }
+    .publish-area:nth-child(odd){
+        flex-direction: row;
+        background:none;
+    }
+    .publish-area-icon, .publish-area-text{
+        height: auto;
+        width:100%;
+        border:none;
+    }
+    .publish-area-icon > i{
+        font-size: 50px;
+        margin:10px auto;
+    }
+    .publish-area-icon > p{
+        font-size: 24px;
+    }
+    .publish-area-text > span{
+        font-size: 18px;
+        padding-top:0;
+    }
+}
