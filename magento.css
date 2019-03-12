@@ -67,6 +67,14 @@ h4 {
 .top-header-content > .container > .row > div:nth-child(1), .top-header-content > .container > .row > div:nth-child(2){
     display: none;
 }
+/*維修中文字訊息區塊*/
+.top-header-content > .container > .row > div:nth-child(2){
+   width:100% !important; 
+}
+/*維修中文字訊息內容*/
+.header .top-header-content .top-middle-header{
+    text-align:center !important;
+}
 /*語系區塊*/
 .top-header-content > .container > .row > div:last-child{
     width:100% !important;
@@ -116,12 +124,12 @@ h4 {
 
 /*前台登入功能(需要編輯時開啟)*/
 .header .table-icon-menu >  div.dropdown-toplinks{
-    display:none;
+   display:none;
 }
 
 /*前台登入功能-手機(需要編輯時開啟)*/
 .megamenu-content ul li.active{
-    display: none;
+    display:none;
 }  
 
 /*------------------------麵包屑選單------------------------*/
@@ -283,6 +291,16 @@ strong.type{
     text-align:center;
 }
 
+/*分機icon*/
+.extension{
+    opacity:0;
+}
+
+/*聯繫資料文字不斷行*/
+.list-icon > li:nth-child(2) > a{
+    white-space:nowrap;
+}
+
 
 /*------------------------RWD------------------------*/
 @media only screen and (max-width:1200px){
@@ -293,9 +311,9 @@ strong.type{
 }
 @media only screen and (max-width: 992px){
     /*切換語系區塊RWD隱藏*/
-    /*#placeholder-header, .top-header-content{
+    placeholder-header, .top-header-content{
         display: none;
-    }*/
+    }
     .breadcrumbs > .container, .breadcrumbs > .container-fluid
     {
         width:750px;
